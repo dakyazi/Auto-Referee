@@ -3,7 +3,7 @@
 README to be edited according to the need.
 -->
 
-# Autonomous Referee System Project - MSD2022
+# Autonomous Referee System Project - MSD2023
 
 ## Table of Content
 1. [About The Project](#about-the-project)
@@ -20,7 +20,7 @@ README to be edited according to the need.
 <!-- Feasibility Analysis -->
 ## Feasibility Studies
 In order to develop the autonomous referee different technologies have been taken into consideration to create the Data to be implemented in the decision algorithm as follow:
-- Improve 2021 MSD work(Using Tech United Data in Real-time)
+- Improve 2022 MSD work(Using Tech United Data in Real-time)
 - Using Drone
 - Sensors Mounted on top of each robot
 - Using Data Fusion for data collection
@@ -28,7 +28,6 @@ In order to develop the autonomous referee different technologies have been take
 
 For each of the above technology a feasibility study report has been prepared which can be found in: docs/[FeasibilityAnalysis](github address")
 
-![image](address of the location)
 
 <!-- System Architecture -->
 ## System Architecture
@@ -99,7 +98,7 @@ Farah Fadel - Design Engineer and Team Leader (f.fadel@tue.nl)<br />
 Ahmet Demirel - Design Engineer and System Architect (a.demirel@tue.nl)<br />
 Atefeh Dehghannayyeri - Design Engineer and Test Engineer (a.dehghannayeri)<br />
 
-MSD2022 AutoRef Project Link: https://
+MSD2023 AutoRef Project Link: https://
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
