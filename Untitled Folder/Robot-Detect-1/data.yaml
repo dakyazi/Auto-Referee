@@ -1,0 +1,12 @@
+names:
+- Robots
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: robot-detect
+  url: https://universe.roboflow.com/tue-wbjzs/robot-detect/dataset/1
+  version: 1
+  workspace: tue-wbjzs
+test: ../test/images
+train: Robot-Detect-1/train/images
+val: Robot-Detect-1/valid/images

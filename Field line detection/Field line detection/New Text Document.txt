@@ -1,1 +1,0 @@
-https://stackoverflow.com/questions/65065447/how-to-detect-lines-in-a-football-field-using-opencv
