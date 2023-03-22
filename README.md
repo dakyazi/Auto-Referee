@@ -3,7 +3,7 @@
 README to be edited according to the need.
 -->
 
-# Autonomous Referee System Project - MSD2023
+# Autonomous Referee System Project - MSD2022
 
 ## Table of Content
 1. [About The Project](#about-the-project)
