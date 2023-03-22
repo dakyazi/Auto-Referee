@@ -9,11 +9,12 @@ README to be edited according to the need.
 1. [About The Project](#about-the-project)
 2. [Feasibility Studies](#feasibility-studies)
 3. [System Architecture](#system-architecture)
-4. [Scope of the project](#scope of the project)
-5. [Method and Procedure](#method and Procedure)
-6. [Implementation and Validation](#implementation-and-validation)
-7. [How to get smooth start](#how to get smooth start)
-8. [Team](#team)
+4. [Scope of the project](#scope-of-the-project)
+5. [Method and Procedure](#method-and-procedure)
+6. [Implementation and Validation for corner kick procedures](#implementation-and-validation-for-corner-kick-procedures)
+7. [How to get smooth start](#how-to-get-smooth-start)
+8. [Suggestion for improvement](#suggestion-for-improvement)
+9. [Team](#team)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -38,6 +39,7 @@ According to our scope of the project, using stadium camera is the best option t
 ## System Architecture
 
 The **Architecture Description** document can be found in the "System Architecture" folder. The purpose of this document is to provide a comprehensive overview of the system's design, so that stakeholders can understand how the system works, how it can be maintained and improved. All the procedures starting from stakeholder's need until the solution design is described in details in this document.
+
 ![System Architecture](https://user-images.githubusercontent.com/120414397/227020183-aba1bf27-cf96-4e15-9812-ae452a9f37d4.PNG)
 
 <!-- Scope of the project -->
@@ -51,27 +53,42 @@ Data acquisition strategy is selected as using multiple cameras around the stadi
 - Implementation has a direct effect on the game, since the human referee does not measure distances during a real match. 
 - The procedure is not directly related to any rule violations that makes it easy to integrate with future/past implementations. 
 
-<!-- Method and Procedure -->
-## Method and Procedure
+<!-- Method and procedure -->
+## Method and procedure
 
 By using one of the security cameras, the corner kick procedure will be used for validating the developed algorithm. In detail, an object detection algorithm will be run in a proper video recording to detect the ball and players from different teams. Then a bird’s eye transformation will be applied to calculate distances between them. By using the distances, the corner kick procedure will be checked and a signal depending on the players positions will be sent to the referee. A dataset containing robot images from different teams and ball images with and without a player around it should be collected in the first place. It has been decided to use YOLO to detect objeects. YOLO is well known deep learning architecture. It is not only easy to find several resources to implement but also to train. 
 
 The explanation of the deep learning models for object detection is out of scope of this report. However, this can be addressed shortly. YOLO models are trained by different datasets for years and more accurate versions are developed. By using predefined software templates and also pretrained models, a high accuracy model can be achieved. The libraries are also optimized to automate using best parameters and strategies, they are fool-proof. The dataset is also expected to be small, compared to a standart dataset that needs to be used in a computer vision model. Therefore using an already implemented YOLO model would be beneficial for performance. 
 In the following video the model can successfully detect ball and both teams robots:
+
 ![ezgif com-optimize (1)](https://user-images.githubusercontent.com/120414397/227038630-5f09d067-59e2-4e3e-8ea9-17e036398eee.gif)
 
 The bird's eye vision transform is another to calculate distances between objects. A simple Euclidian distance calculation can be used, however a proper coordinate axis should be set before starting calculations. The simplest approach would be to get a top view of the image and a proper scaling should be done. By that way, one can convert pixel distances in to real-world measurements. In order to transform the auxiliary view in to top view, a linear transformation have to be done. This transformation matrix can be calculated by matching different points taken from image in terms of pixels and real-world measurements. Luckily, the field lines are perpendicular to each other, and they can be used to calculate transformation matrix.
 
-<!-- Implementation and Validation -->
-## Implementation and Validation
+![image](https://user-images.githubusercontent.com/120414397/227039753-4d70c67d-09ae-4569-9b98-30c239d85abb.png)
 
+
+<!-- Implementation and Validation for corner kick procedures -->
+## Implementation and Validation for corner kick procedures
 The developed python code  can be found in the folder named "Developed Software"
+According to corner kick procedure:
+
+- The robot of the attacking team that is taking the kick is positioned at the ball. 
+- All other players of the corner kick awarded team can stay anywhere on the field except in a circle with a radius of 2m around the ball until the ball is in play.
+- All players of the opponent team can stay anywhere on the field except in a circle with a radius of 3m around the ball until the ball is in play. One robot may stay anywhere inside the penalty area (except goal area) of its own team, even if the distance to the ball is shorter than 3m. 
+
+As a result any violation according to this procedures should be logged by autonmous referee
+
+
  
 
-<!-- How to get a smooth start -->
-## How to get a smooth start?
+
+
+- <!-- How to get smooth start -->
+## How to get smooth start
 
 - It is recommended to not start from the scratch.
+- Study the documents regarding the previous groups.
 - It is highly recommended to get in touch with the Tech United team and use the Tech United repository in case of using TURTLEs. <br />
   Some of the people that you can get in touch with:<br />
   Tech United Website: https://www.techunited.nl/en/<br />
@@ -85,6 +102,12 @@ The developed python code  can be found in the folder named "Developed Software"
 - Get in touch with MSD2022.
 - Get in touch with Matthias Briegel<br />
   Matthias is the person who has previously worked on developing AutoRef system and he may share some interesting ideas for the development of the AutoRef system. (matthias_briegel@hotmail.com)
+  
+  <!-- Suggestion for improvement-->
+## Suggestion for improvement
+- Apply the algorithm for other rule's procedures such as free kick and goal kick
+- Train the model to work with different types of robots and balls
+- Try to combine different cameras for better view of the field
 
 <!-- Team -->
 ## Team
