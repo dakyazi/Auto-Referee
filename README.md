@@ -70,7 +70,8 @@ The bird's eye vision transform is another to calculate distances between object
 
 <!-- Implementation and Validation for corner kick procedures -->
 ## Implementation and Validation for corner kick procedures
-The developed python code  can be found in the folder named "Developed Software"
+The developed python code  can be found in the folder named "Developed Software".
+
 According to corner kick procedure:
 
 - The robot of the attacking team that is taking the kick is positioned at the ball. 
