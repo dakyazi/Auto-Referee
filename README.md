@@ -44,7 +44,7 @@ The **Architecture Description** document can be found in the "System Architectu
 <!-- Scope of the project -->
 ## Scope of the project 
 
-Data acquisition strategy is selected as using multiple cameras around the stadium. For the starting point to set an integration delivery, a corner kick game start procedure will be used for validation of the algorithm but it can be used for other starting procedures such as goal kick or free kick. The reason for choosing this rule for validation of our algorithm can be summarized as follows: 
+To ensure accurate data acquisition and tracking of the position of the robots and the ball in the starting point of any rule procedure, we have selected a comprehensive strategy that utilizes stadium cameras placed strategically around the stadium. Our algorithm's main objective is to precisely monitor the movement and placement of the ball and robots during rule procedures, such as corner kicks, goal kicks, and free kicks. By using the corner kick game start procedure for validation of our algorithm, we can ensure that our approach is robust and reliable for various starting procedures. This rule was chosen for validation as it represents a common starting procedure in soccer and offers a comprehensive test for our algorithm's accuracy and effectiveness. The reason for choosing this rule for validation of our algorithm can be summarized as follows: 
 
 - The procedure is simple 
 - Similar with other game starting procedures. 
