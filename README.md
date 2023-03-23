@@ -21,14 +21,14 @@ README to be edited according to the need.
 The Autonomous Referee project, has been started in 2015 with the aim of assisting human referee, to be more reliable and accountable in decision making process in soccer robot game. This project has been developed by Eindhoven University of Technology for the RoboCup Middle Size League(MSL) and leverages cutting-edge technologies including computer vision, Machine Learning, and robotics to enable autonomous monitoring and management of soccer games. By integrating these technologies, the system can perform a wide range of functions such as tracking the ball position, detecting fouls, and signaling when the ball crosses the goal line. Such capabilities are expected to significantly reduce the chances of human error and ensure a more accurate and consistent refereeing judgment.
 <!-- Feasibility Analysis -->
 ## Feasibility Studies
-In order to develop the autonomous referee different technologies have been taken into consideration to create the Data to be implemented in the decision algorithm as follow:
+In order to develop the autonomous referee different, technologies have been taken into consideration to create a data which can be implemented in the decision making algorithm as follow:
 - Using Tech United Data 
 - Sensors Mounted on top of each robot
 - Using Data Fusion for data collection
-- Fixed Independent Sensors Mounted on the Stadiums
+- Fixed Independent Sensors Mounted in the Stadium
 
 A complete report regarding the feasibility analysis of all these methods is provided and can be found in "Feasibility Check" folder.
-According to our scope of the project, using stadium camera is the best option to choose from according to several factors including:
+Based on the scoop of our project, using stadium camera is the best option to achieve the goal by focusing on the following factors: 
 - Reliability
 - Accessibility
 - Easy to record and reuse
