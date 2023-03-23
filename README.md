@@ -28,7 +28,7 @@ In order to develop the autonomous referee different, technologies have been tak
 - Fixed Independent Sensors Mounted in the Stadium
 
 A complete report regarding the feasibility analysis of all these methods is provided and can be found in "Feasibility Check" folder.
-Based on the scoop of our project, using stadium camera is the best option to achieve the goal by focusing on the following factors: 
+Based on the scoop of our project, using stadium camera is the best option to achieve the goal by extra focusing on the following factors: 
 - Reliability
 - Accessibility
 - Easy to record and reuse
