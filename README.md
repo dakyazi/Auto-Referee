@@ -44,10 +44,10 @@ The **Architecture Description** document can be found in the "System Architectu
 <!-- Scope of the project -->
 ## Scope of the project 
 
-To ensure accurate data acquisition and tracking of the position of the robots and the ball in the starting point of any rule procedure, we have selected a comprehensive strategy that utilizes stadium cameras placed strategically around the stadium. Our algorithm's main objective is to precisely monitor the movement and placement of the ball and robots during rule procedures, such as corner kicks, goal kicks, and free kicks. By using the corner kick game start procedure for validation of our algorithm, we can ensure that our approach is robust and reliable for various starting procedures. This rule was chosen for validation as it represents a common starting procedure in soccer and offers a comprehensive test for our algorithm's accuracy and effectiveness. The reason for choosing this rule for validation of our algorithm can be summarized as follows: 
+To ensure accurate data acquisition and tracking of the position of the robots and the ball in the starting point of any game procedure, we have selected a comprehensive strategy that utilizes stadium cameras placed strategically around the stadium. Our algorithm's main objective is to precisely monitor the movement and placement of the ball and robots during rule procedures, such as corner kicks, goal kicks, and free kicks. By using the corner kick start procedure for validation of our algorithm, we can ensure that our approach is robust and reliable for various starting procedures. This rule was chosen for validation as it represents a common starting procedure in soccer and offers a comprehensive test for our algorithm's accuracy and effectiveness. The reason for choosing this rule can be summarized as follows: 
 
-- The procedure is simple 
-- Similar with other game starting procedures. 
+- The procedure is simple. 
+- Similar with other game starting point procedures. 
 - Camera technology is less complex, and hardware is reachable. 
 - Implementation has a direct effect on the game, since the human referee does not measure distances during a real match. 
 - The procedure is not directly related to any rule violations that makes it easy to integrate with future/past implementations. 
