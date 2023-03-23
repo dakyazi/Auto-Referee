@@ -77,7 +77,12 @@ According to corner kick procedure:
 - All other players of the corner kick awarded team can stay anywhere on the field except in a circle with a radius of 2m around the ball until the ball is in play.
 - All players of the opponent team can stay anywhere on the field except in a circle with a radius of 3m around the ball until the ball is in play. One robot may stay anywhere inside the penalty area (except goal area) of its own team, even if the distance to the ball is shorter than 3m. 
 
-As a result any violation according to this procedures should be logged by autonmous referee
+As a result any violation according to this procedures should be logged by autonmous referee. Two possible scenarios can be defined:
+
+- Attacking Team Scenario
+
+
+- Defending Team Scenario
 
 
  
