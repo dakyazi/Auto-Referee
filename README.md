@@ -64,7 +64,7 @@ In the following video the model can successfully detect ball and both teams rob
 
 The bird's eye vision transform is another to calculate distances between objects. A simple Euclidian distance calculation can be used, however a proper coordinate axis should be set before starting calculations. The simplest approach would be to get a top view of the image and a proper scaling should be done. By that way, one can convert pixel distances in to real-world measurements. In order to transform the auxiliary view in to top view, a linear transformation have to be done. This transformation matrix can be calculated by matching different points taken from image in terms of pixels and real-world measurements. Luckily, the field lines are perpendicular to each other, and they can be used to calculate transformation matrix.
 
-![image](https://user-images.githubusercontent.com/120414397/227039753-4d70c67d-09ae-4569-9b98-30c239d85abb.png)
+<img src="https://user-images.githubusercontent.com/120414397/227039753-4d70c67d-09ae-4569-9b98-30c239d85abb.png" width="60%" height="60%">
 
 
 <!-- Implementation and Validation for corner kick procedures -->
