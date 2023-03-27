@@ -2,7 +2,7 @@
 <!--
 README to be edited according to the need.
 -->
-checkinggggggggggggggggggggggggggggggggggggggggggggggggg
+
 # Autonomous Referee System Project - MSD2022
 
 ## Table of Content
