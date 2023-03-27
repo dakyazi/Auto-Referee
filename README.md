@@ -2,7 +2,6 @@
 <!--
 README to be edited according to the need.
 -->
-
 # Autonomous Referee System Project - MSD2022
 
 ## Table of Content
@@ -79,17 +78,20 @@ According to corner kick procedure:
 
 As a result any violation according to this procedures should be logged by autonomous referee. Two possible scenarios can be defined:
 
-- Attacking Team Scenario
+- Attacking Team Scenario: The robot behind the ball is from the Blue Team, so the attacking team is defined in this situation is the blue team and the defending team is the oranje one. The blue robot should not be with a distance of 2 meters to the ball.
 
 
-- Defending Team Scenario
+https://user-images.githubusercontent.com/58340607/227952868-e57aaf87-eefa-4d70-9552-03f564c0e8b5.mp4
+
+
+
+- Defending Team Scenario: To validate the results, a 3 meter radius has been added to check if the oranje team violates the 3 meter rule
 
 
  
 
-
-
-- <!-- How to get smooth start -->
+https://user-images.githubusercontent.com/58340607/227952993-cd51b16d-355b-40ed-9c75-7b72ff20376b.mp4
+ <!-- How to get smooth start -->
 ## How to get smooth start
 
 - It is recommended to not start from the scratch.
