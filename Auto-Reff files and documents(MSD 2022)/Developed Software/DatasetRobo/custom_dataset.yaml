@@ -1,0 +1,7 @@
+train: ../custom_dateset/images
+val: ../custom_dataset/images
+test: ../custom_dataset/images
+
+nc: 3
+names: ['Ball', 'Team_Blue', 'Team_Red']
+
