@@ -55,9 +55,9 @@ To ensure accurate data acquisition and tracking of the position of the robots a
 <!-- Method and procedure -->
 ## Method and procedure
 
-By using one of the security cameras, the corner kick procedure will be used for validating the developed algorithm. In detail, an object detection algorithm will be run in a proper video recording to detect the ball and players from different teams. Then a bird’s eye transformation will be applied to calculate distances between them. By using the distances, the corner kick procedure will be checked and a signal depending on the players positions will be sent to the referee. A dataset containing robot images from different teams and ball images with and without a player around it should be collected in the first place. It has been decided to use YOLO to detect objeects. YOLO is well known deep learning architecture. It is not only easy to find several resources to implement but also to train. 
+By using one of the security cameras, the corner kick procedure will be used for validating the developed algorithm. In detail, an object detection algorithm will be run in a proper video recording to detect the ball and players from different teams. Then a bird’s eye transformation will be applied to calculate distances between them. By using the distances, the corner kick procedure will be checked and a signal depending on the players positions will be sent to the referee. A dataset containing robot images from different teams and ball images with and without a player around it should be collected in the first place. It has been decided to use YOLO to detect objects. YOLO is well known deep learning architecture. It is not only easy to find several resources to implement but also to train. 
 
-The explanation of the deep learning models for object detection is out of scope of this report. However, this can be addressed shortly. YOLO models are trained by different datasets for years and more accurate versions are developed. By using predefined software templates and also pretrained models, a high accuracy model can be achieved. The libraries are also optimized to automate using best parameters and strategies, they are fool-proof. The dataset is also expected to be small, compared to a standart dataset that needs to be used in a computer vision model. Therefore using an already implemented YOLO model would be beneficial for performance. 
+The explanation of the deep learning models for object detection is out of scope of this report. However, this can be addressed shortly. YOLO models are trained by different datasets for years and more accurate versions are developed. By using predefined software templates and also pretrained models, a high accuracy model can be achieved. The libraries are also optimized to automate using best parameters and strategies, they are fool-proof. The dataset is also expected to be small, compared to a standard dataset that needs to be used in a computer vision model. Therefore using an already implemented YOLO model would be beneficial for performance. 
 In the following video the model can successfully detect ball and both teams robots:
 
 ![ezgif com-optimize (1)](https://user-images.githubusercontent.com/120414397/227038630-5f09d067-59e2-4e3e-8ea9-17e036398eee.gif)
@@ -77,7 +77,7 @@ According to corner kick procedure:
 - All other players of the corner kick awarded team can stay anywhere on the field except in a circle with a radius of 2m around the ball until the ball is in play.
 - All players of the opponent team can stay anywhere on the field except in a circle with a radius of 3m around the ball until the ball is in play. One robot may stay anywhere inside the penalty area (except goal area) of its own team, even if the distance to the ball is shorter than 3m. 
 
-As a result any violation according to this procedures should be logged by autonmous referee. Two possible scenarios can be defined:
+As a result any violation according to this procedures should be logged by autonomous referee. Two possible scenarios can be defined:
 
 - Attacking Team Scenario
 
@@ -107,7 +107,7 @@ As a result any violation according to this procedures should be logged by auton
 - Get in touch with MSD2022.
 - Get in touch with Matthias Briegel<br />
   Matthias is the person who has previously worked on developing AutoRef system and he may share some interesting ideas for the development of the AutoRef system. (matthias_briegel@hotmail.com)
-  
+   
   <!-- Suggestion for improvement-->
 ## Suggestion for improvement
 - Apply the algorithm for other rule's procedures such as free kick and goal kick
