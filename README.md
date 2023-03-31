@@ -138,8 +138,10 @@ http://cstwiki.wtb.tue.nl/index.php?title=AutoRef_-_Autonomous_Referee_System
 
 
 
-Github repository cohort 2021-2022 
+Github repository cohort 2021-2023 
 ---------------------------------- 
+The 2021-2023 MSD team used the robot players as “referee” to collect data for the decision-making algorithm. Using Tech United Data, the team designed, implemented, and tested the "ball rolling for a distance greater than 0.5 m" and the “ball IN/OUT of play” tasks. Moreover, the team recorded a real game of two against two robots to validate the algorithm created in Matlab.
+
 https://github.com/Anup8777/AutonomousReferee 
 
 
