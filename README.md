@@ -141,7 +141,7 @@ https://github.com/Anup8777/AutonomousReferee
 
 
 
-TU/e Gitlab repository (a.o. 2017-2018 software; files of 2-3 years ago): 
+TU/e Gitlab repository (a.o. 2017-2018 software; files of 2-3 years ago)
 ------------------------------------------------------------------------- 
 https://gitlab.tue.nl/autoref/autoref_system 
  
