@@ -81,14 +81,14 @@ According to corner kick set piece:
 
 As a result any violation according to this procedures should be logged by autonomous referee. Two possible scenarios can be defined:
 
-- Attacking Team Scenario: The robot behind the ball is from the Blue Team, so the attacking team is defined in this situation is the blue team and the defending team is the oranje one. The blue robot should not be with a distance of 2 meters to the ball.
+- Attacking Team Scenario: The robot behind the ball is from the Blue Team, so the attacking team is defined in this situation is the blue team and the defending team is the orange one. The blue robot should not be with a distance of 2 meters to the ball.
 
 
 https://user-images.githubusercontent.com/58340607/227952868-e57aaf87-eefa-4d70-9552-03f564c0e8b5.mp4
 
 
 
-- Defending Team Scenario: To validate the results, a 3 meter radius has been added to check if the oranje team violates the 3 meter rule
+- Defending Team Scenario: To validate the results, a 3 meter radius has been added to check if the orange team violates the 3 meter rule
 
 
  
