@@ -2,7 +2,6 @@
 <!--
 README to be edited according to the need.
 -->
-
 # Autonomous Referee System Project - MSD2022
 
 ## Table of Content
@@ -15,10 +14,11 @@ README to be edited according to the need.
 7. [How to get smooth start](#how-to-get-smooth-start)
 8. [Suggestion for improvement](#suggestion-for-improvement)
 9. [Team](#team)
+10. [Reference](#Reference)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The Autonomous Referee project, has been started in 2015 with the aim of assisting human referee, to be more reliable and accountable in decision making process in soccer robot game. This project has been developed by Eindhoven University of Technology for the RoboCup Middle Size League(MSL) and leverages cutting-edge technologies including computer vision, Machine Learning, and robotics to enable autonomous monitoring and management of soccer games. By integrating these technologies, the system can perform a wide range of functions such as tracking the ball position, detecting fouls, and signaling when the ball crosses the goal line. Such capabilities are expected to significantly reduce the chances of human error and ensure a more accurate and consistent refereeing judgment.
+The Autonomous Referee project, started in 2015 with the aim of assisting human referee, to be more reliable and accountable in decision making process in soccer robot game. This project has been developed by Eindhoven University of Technology for the RoboCup Middle Size League(MSL) and leverages cutting-edge technologies including computer vision, Machine Learning, and robotics to enable autonomous monitoring and management of soccer games. By integrating these technologies, the system can perform a wide range of functions such as tracking the ball position, detecting fouls, and signaling when the ball crosses the goal line. Such capabilities are expected to significantly reduce the chances of human error and ensure a more accurate and consistent refereeing judgment.
 <!-- Feasibility Analysis -->
 ## Feasibility Studies
 In order to develop the autonomous referee different, technologies have been taken into consideration to create a data which can be implemented in the decision making algorithm as follow:
@@ -79,17 +79,20 @@ According to corner kick procedure:
 
 As a result any violation according to this procedures should be logged by autonomous referee. Two possible scenarios can be defined:
 
-- Attacking Team Scenario
+- Attacking Team Scenario: The robot behind the ball is from the Blue Team, so the attacking team is defined in this situation is the blue team and the defending team is the oranje one. The blue robot should not be with a distance of 2 meters to the ball.
 
 
-- Defending Team Scenario
+https://user-images.githubusercontent.com/58340607/227952868-e57aaf87-eefa-4d70-9552-03f564c0e8b5.mp4
+
+
+
+- Defending Team Scenario: To validate the results, a 3 meter radius has been added to check if the oranje team violates the 3 meter rule
 
 
  
 
-
-
-- <!-- How to get smooth start -->
+https://user-images.githubusercontent.com/58340607/227952993-cd51b16d-355b-40ed-9c75-7b72ff20376b.mp4
+ <!-- How to get smooth start -->
 ## How to get smooth start
 
 - It is recommended to not start from the scratch.
@@ -124,8 +127,24 @@ Farah Fadel - Design Engineer and Team Leader (f.fadel@tue.nl)<br />
 Ahmet Demirel - Design Engineer and System Architect (a.demirel@tue.nl)<br />
 Atefeh Dehghannayyeri - Design Engineer and Test Engineer (a.dehghannayeri@tue.nl)<br />
 
+<!-- Reference -->
+## Reference
+CST-Wiki Overview: Cohort 2015-2017 until 2020-2022 
+--------------------------------------------------- 
+http://cstwiki.wtb.tue.nl/index.php?title=AutoRef_-_Autonomous_Referee_System 
 
 
+
+Github repository cohort 2021-2022 
+---------------------------------- 
+https://github.com/Anup8777/AutonomousReferee 
+
+
+
+TU/e Gitlab repository (a.o. 2017-2018 software; files of 2-3 years ago)
+------------------------------------------------------------------------- 
+https://gitlab.tue.nl/autoref/autoref_system 
+ 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
