@@ -47,7 +47,7 @@ The **Architecture Description** document can be found in the "System Architectu
 To ensure accurate data acquisition and tracking of the position of the robots and the ball in the starting point of any game procedure, we have selected a comprehensive strategy that utilizes stadium cameras placed strategically around the stadium. Our algorithm's main objective is to design an algorithm for checking set piece. Set piece includes situations such as corner kicks, free kicks, and penalty kicks, where the game is temporarily stopped to allow players to set up in a specific formation or position. Any violation regarding teams positioning can be detected by the auto-ref and will be penalized . By using the corner kick set piece for validation of our algorithm, we can ensure that our approach is robust and reliable for various starting procedures. This rule was chosen for validation as it represents a common set piece in soccer and offers a comprehensive test for our algorithm's accuracy and effectiveness. The reason for choosing this rule can be summarized as follows: 
 
 - The procedure is simple. 
-- Similar with other game starting point procedures. 
+- Similar to other rules'set piece. 
 - Camera technology is less complex, and hardware is reachable. 
 - Implementation has a direct effect on the game, since the human referee does not measure distances during a real match. 
 - The procedure is not directly related to any rule violations that makes it easy to integrate with future/past implementations. 
