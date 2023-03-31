@@ -14,6 +14,7 @@ README to be edited according to the need.
 7. [How to get smooth start](#how-to-get-smooth-start)
 8. [Suggestion for improvement](#suggestion-for-improvement)
 9. [Team](#team)
+10. [Reference](#Reference)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -126,7 +127,8 @@ Farah Fadel - Design Engineer and Team Leader (f.fadel@tue.nl)<br />
 Ahmet Demirel - Design Engineer and System Architect (a.demirel@tue.nl)<br />
 Atefeh Dehghannayyeri - Design Engineer and Test Engineer (a.dehghannayeri@tue.nl)<br />
 
-
+<!-- Reference -->
+## Reference
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
