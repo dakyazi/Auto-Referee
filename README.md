@@ -149,6 +149,9 @@ https://github.com/Anup8777/AutonomousReferee
 
 TU/e Gitlab repository (a.o. 2017-2018 software; files of 2-3 years ago)
 ------------------------------------------------------------------------- 
+This repository include the software files used by Tech United Team. To access this link, you need to request access from Erjen using your tue email address.
+
+
 https://gitlab.tue.nl/autoref/autoref_system 
  
 <p align="right">(<a href="#top">back to top</a>)</p>
