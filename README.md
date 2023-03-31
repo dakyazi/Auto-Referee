@@ -44,10 +44,10 @@ The **Architecture Description** document can be found in the "System Architectu
 <!-- Scope of the project -->
 ## Scope of the project 
 
-To ensure accurate data acquisition and tracking of the position of the robots and the ball in the starting point of any game procedure, we have selected a comprehensive strategy that utilizes stadium cameras placed strategically around the stadium. Our algorithm's main objective is to precisely monitor the movement and placement of the ball and robots during rule procedures, such as corner kicks, goal kicks, and free kicks. By using the corner kick start procedure for validation of our algorithm, we can ensure that our approach is robust and reliable for various starting procedures. This rule was chosen for validation as it represents a common starting procedure in soccer and offers a comprehensive test for our algorithm's accuracy and effectiveness. The reason for choosing this rule can be summarized as follows: 
+To ensure accurate data acquisition and tracking of the position of the robots and the ball in the starting point of any game procedure, we have selected a comprehensive strategy that utilizes stadium cameras placed strategically around the stadium. Our algorithm's main objective is to design an algorithm for checking set piece. Set piece includes situations such as corner kicks, free kicks, and penalty kicks, where the game is temporarily stopped to allow players to set up in a specific formation or position. Any violation regarding teams positioning can be detected by the auto-ref and will be penalized . By using the corner kick set piece for validation of our algorithm, we can ensure that our approach is robust and reliable for various starting procedures. This rule was chosen for validation as it represents a common set piece in soccer and offers a comprehensive test for our algorithm's accuracy and effectiveness. The reason for choosing this rule can be summarized as follows: 
 
 - The procedure is simple. 
-- Similar with other game starting point procedures. 
+- Similar to other rules'set piece. 
 - Camera technology is less complex, and hardware is reachable. 
 - Implementation has a direct effect on the game, since the human referee does not measure distances during a real match. 
 - The procedure is not directly related to any rule violations that makes it easy to integrate with future/past implementations. 
@@ -71,11 +71,13 @@ The bird's eye vision transform is another to calculate distances between object
 ## Implementation and Validation for corner kick procedures
 The developed python code  can be found in the folder named "Developed Software".
 
-According to corner kick procedure:
+According to corner kick set piece:
 
+- The referee gives a “corner kick” signal.
 - The robot of the attacking team that is taking the kick is positioned at the ball. 
 - All other players of the corner kick awarded team can stay anywhere on the field except in a circle with a radius of 2m around the ball until the ball is in play.
-- All players of the opponent team can stay anywhere on the field except in a circle with a radius of 3m around the ball until the ball is in play. One robot may stay anywhere inside the penalty area (except goal area) of its own team, even if the distance to the ball is shorter than 3m. 
+- All players of the opponent team can stay anywhere on the field except in a circle with a radius of 3m around the ball until the ball is in play. 
+
 
 As a result any violation according to this procedures should be logged by autonomous referee. Two possible scenarios can be defined:
 
@@ -129,8 +131,8 @@ Atefeh Dehghannayyeri - Design Engineer and Test Engineer (a.dehghannayeri@tue.n
 
 <!-- Reference -->
 ## Reference
+
 CST-Wiki Overview: Cohort 2015-2017 until 2020-2022 
---------------------------------------------------- 
 http://cstwiki.wtb.tue.nl/index.php?title=AutoRef_-_Autonomous_Referee_System 
 
 
